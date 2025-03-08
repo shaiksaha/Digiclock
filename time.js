@@ -45,9 +45,12 @@ function stopclock (){
 function resetclock (){
     clearInterval(interval);
     interval = null ;
-    
-    day.innerHTML = 0 ;
-    hour.innerHTML = 0 ;
-    min.innerHTML = 0 ;
-    sec.innerHTML = 0 ;
+    d =  0;
+    h = 0;
+    m = 0 ;
+    s = 0;
+    day.innerHTML = d ;
+    hour.innerHTML = h ;
+    min.innerHTML = m ;
+    sec.innerHTML = s ;
 }
